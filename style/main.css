@@ -1,0 +1,58 @@
+body{
+	font-family: 'Lato', sans-serif !important;
+}
+.section_1{
+		background: url(../img/bk.jpg);
+		webkit-background-size: cover;
+		background-size: cover;
+		position: relative;
+		height: 400px;
+		width: 100%;
+		color:#fff;
+	}
+.point{
+	color:#ff4e1c;
+}
+.title{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.title h1{
+	font-size: 5.25rem !important;
+	font-family: 'Lato', sans-serif !important;
+	line-height: 74%;
+}
+.normal{
+	font-style: 'Lato','Light';
+	font-weight: 100;
+}
+.secton_right{
+	position: relative;
+}
+.phone img{
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+	margin-left: -152px;
+}
+.lOVE{
+	color:#eee;
+}
+.box {
+	display:block;
+	float:left;
+}
+.service{
+	margin-top: 72px;
+	color: #FFFFFF;
+	background: #ff6131;
+	width: 70px;
+}
+.service i{
+	font-size: 43px;
+	text-align: center;
+	padding-top: 45%;
+	padding-bottom: 45%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
