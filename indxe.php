@@ -6,10 +6,11 @@
 	<?php
 		include("components/link.php");
 	?>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-<!-- Beginning navbar-->
+<!-- Beginning section1-->
+	<section class="section_1">
+		<!-- Beginning navbar-->
 	<nav>
 		<div class="nav-wrapper">
 			<a href="#" class="brand-logo">
@@ -25,13 +26,12 @@
 		</div>
 	</nav>
 <!-- end navbar-->
-<!-- Beginning section1-->
-	<section class="section_1">
 		<div class="row">
-			<div class="col s10 offset-s1 m6 offset-m1 l8">
+			<div class="container">
+			<div class="col s12 m8  l8">
 				<div class="title">
-					<h1>SIMPLE<span class="point">.</span></h1>
-					<h1 class="normal">MORE!</h1>
+					<h1>SIMPLE<span class="point">.</span><br>
+					<span>MORE!</span></h1>
 					<h3>BE FREE. DO IT YOURWOY!</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -43,12 +43,13 @@
 			</div>
 		</div>
 	</section>
+			</div>
 <!-- end section1-->
 	<section>
 		<div class="container">
 			<div class="row">
-				<h4>WHAT WE <span class="lOVE">LOVE TO DO</span><span class="point">.</span></h4>
-				<div class="col s4 box">
+				<h4 class="what_we">WHAT WE <span class="lOVE">LOVE TO DO</span><span class="point">.</span></h4>
+				<div class="col s12 m4 box">
 					<div class="service">
 						<i class="material-icons">autorenew</i>
 					</div>
@@ -65,7 +66,7 @@
 					</div>
 				</div>
 
-				<div class="col s4 box">
+				<div class="col s12 m4 box">
 					<div class="service">
 						<i class="fa fa-coffee" aria-hidden="true"></i>
 					</div>
@@ -81,7 +82,7 @@
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 				</div>
-				<div class="col s4 box">
+				<div class="col s12 m4 box">
 					<div class="service">
 						<i class="fa fa-file" aria-hidden="true"></i>
 					</div>
@@ -98,6 +99,19 @@
 					</div>
 				</div>
 		</div>
+		</div>
+	</section>
+	<section class="section_3">
+		<div class="container">
+			<div class="row">
+				<div class="col m12">
+					<div class="title-heading">
+						<h2 class="fadeInLeft animated">Build awesome 
+						<span>layouts</span></h2>
+						<p>Enter a cool description here</p>
+					 </div>
+				</div>
+			</div>
 		</div>
 	</section>
 <?php include("components/script.php"); ?>

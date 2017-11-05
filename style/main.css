@@ -1,20 +1,25 @@
 body{
 	font-family: 'Lato', sans-serif !important;
 }
+nav{
+	background-color: rgba(255,255,255,0);!important;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);
+}
+section{
+	webkit-background-size: cover;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
 .section_1{
 		background: url(../img/bk.jpg);
-		webkit-background-size: cover;
-		background-size: cover;
-		position: relative;
-		height: 400px;
-		width: 100%;
 		color:#fff;
 	}
 .point{
 	color:#ff4e1c;
 }
 .title{
-	margin-left: 10%;
 	margin-top: 10%;
 }
 .title h1{
@@ -22,9 +27,8 @@ body{
 	font-family: 'Lato', sans-serif !important;
 	line-height: 74%;
 }
-.normal{
-	font-style: 'Lato','Light';
-	font-weight: 100;
+h1 .normal{
+	font-weight: 100 !important;
 }
 .secton_right{
 	position: relative;
@@ -33,14 +37,11 @@ body{
 	position:absolute;
 	z-index: 1;
 	width: 100%;
-	margin-left: -152px;
+	margin-top: 7%;
 }
 .lOVE{
 	color:#eee;
-}
-.box {
-	display:block;
-	float:left;
+	font-weight: lighter;
 }
 .service{
 	margin-top: 72px;
@@ -55,4 +56,45 @@ body{
 	padding-bottom: 45%;
 	padding-left: 25%;
 	padding-right: 25%;
+}
+.text_servis{
+	margin-left: 26%;
+	margin-top: -41%;
+}
+.title p{
+	font-weight: lighter !important;
+}
+h4{
+	margin:0;
+}
+.section_3{
+	background: url(../img/bgsecton3.jpg) center center no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.title-heading {
+	margin: 15px 0 10px 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+	text-align: left;
+}
+.title-heading  h2{
+	font-size: 42px;
+	color: #2b2b2b;
+	font-weight: 900;
+	letter-spacing: -1px;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+.title-heading h2 span {
+	font-weight: 100;
+}
+.title-heading p.heading {
+	color: #EEEEEE;
+	padding: 0;
+	margin: -10px 0 15px 0;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5em;
 }
